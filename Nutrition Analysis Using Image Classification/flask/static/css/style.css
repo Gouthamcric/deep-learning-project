@@ -1,0 +1,49 @@
+.container{
+  margin-left:auto;
+  margin-right:auto;  
+  margin-top:calc(calc(100vh - 405px)/2);
+}
+#form1{
+  width:auto;
+}
+.alert{
+  text-align:center;
+}
+ 
+#preview{  
+  max-height:256px;
+  height:auto;
+  width:auto;
+  display:block;
+  margin-left: auto;
+   margin-right: auto;
+  padding:5px;
+}
+#img_container{
+  border-radius:5px;
+  margin-top:20px;
+  width:auto;  
+}
+.input-group{  
+  margin-left:calc(calc(100vw - 100%)/2);
+  margin-top:40px;
+  width:320px;
+}
+.imgInp{  
+  width:150px;
+  margin-top:10px;
+  padding:10px;
+  background-color:#d3d3d3;  
+}
+.loading{
+   animation:blinkingText ease 2.5s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }     
+    50%{   color: #transparent; }
+    99%{    color:transparent;  }
+    100%{ color:#000; }
+}
+.custom-file-label{
+  cursor:pointer;
+}
