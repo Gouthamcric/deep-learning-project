@@ -6,4 +6,4 @@ In the current age, people are more conscious about their food and diet to avoid
 # Solution :
 Here effort has been made to classify the images of food for further diet monitoring applications using convolution neural networks (CNNs). Since the CNNs are capable of handling a large amount of data and can estimate the features automatically, they have been utilised for the task of food classification. The standard Fruits dataset has been  selected as the working database for this approach. After the classification is done a Nutrition API is called to get the calorie count and protein content. A Web application is built and CNN model is deployed to use this application.
 
-# Tools : Python,Python Web Frame Works,CNN
+# Tools : Python,Python Web Frame Works,CNN,MongoDB
